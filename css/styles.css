@@ -594,6 +594,7 @@ header {
   margin-right: 80px;
 }*/
 .logo-container {
+  display: block;
   margin-bottom: 20px;
 }
 .footer-map {
@@ -623,10 +624,10 @@ header {
   margin-top: 20px;
 }
 .social-links-footer {
-  display: block;
+  display: flex;
   width: 206px;
-  height: 80px;
-  padding-top: 12px;
+  /*height: 80px;
+  padding-top: 12px;*/
 }
 .unite {
   font-weight: 700;
@@ -635,7 +636,7 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-  text-align: center;
+  text-align: start;
   margin-bottom: 20px;
   font-style: normal;
 }
@@ -645,7 +646,7 @@ header {
   margin-left: 70px;
   flex-direction: column;
 }
-.footer-social-networks {
+.footer-social-networks-list {
   display: flex;
   width: 206px;
   justify-content: space-between;
