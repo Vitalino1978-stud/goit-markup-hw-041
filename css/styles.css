@@ -537,7 +537,7 @@ header {
 .client-list {
   display: inline-flex;
   align-items: center;
-  margin-right: 215px;
+  /*margin-right: 215px;*/
 }
 .client-item {
   display: flex;
